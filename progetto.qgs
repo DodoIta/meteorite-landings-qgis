@@ -7,7 +7,7 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="Progetto Cortellucci Pedini">
       <customproperties/>
-      <layer-tree-layer expanded="0" providerKey="memory" checked="Qt::Checked" id="memory_20171018165722246" source="Polygon?uuid=680436bc-5de1-4635-8831-683ab5605aa2&amp;crs=EPSG:4326&amp;field=name:string&amp;field=sumid:double&amp;field=summass (g):double&amp;field=sumreclat:double&amp;field=sumreclong:double&amp;field=count:double" name="Joined layer">
+      <layer-tree-layer expanded="0" providerKey="memory" checked="Qt::Checked" id="memory_20171018170713320" source="Polygon?uuid=3b50cb90-edb4-46fd-9397-16775d420bcb&amp;crs=EPSG:4326&amp;field=name:string&amp;field=sumid:double&amp;field=summass (g):double&amp;field=sumreclat:double&amp;field=sumreclong:double&amp;field=count:double" name="Joined layer">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="Meteorite_Landings20171018165701826" source="file:///home/archie/Documents/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" name="Meteorite_Landings">
@@ -48,14 +48,14 @@
     <custom-order enabled="0">
       <item>geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171018114707108</item>
       <item>Meteorite_Landings20171018165701826</item>
-      <item>memory_20171018165722246</item>
+      <item>memory_20171018170713320</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendgroup open="true" checked="Qt::Checked" name="Progetto Cortellucci Pedini">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Joined layer" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="memory_20171018165722246" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="memory_20171018170713320" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Meteorite_Landings" showFeatureCount="0">
@@ -184,7 +184,7 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -200,13 +200,13 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="15263975">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -532,7 +532,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>memory_20171018165722246</id>
+      <id>memory_20171018170713320</id>
       <datasource>memory?geometry=Polygon&amp;crs=EPSG:4326&amp;field=name:string(255,0)&amp;field=sumid:double(20,5)&amp;field=summass%20(g):double(20,5)&amp;field=sumreclat:double(20,5)&amp;field=sumreclong:double(20,5)&amp;field=count:double(20,5)</datasource>
       <keywordList>
         <value></value>
@@ -1322,7 +1322,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="184,128,160,255"/>
+              <prop k="color" v="255,175,235,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1554,7 +1554,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="25">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-1">
         <columns>
           <column width="-1" hidden="0" type="field" name="name"/>
           <column width="-1" hidden="0" type="field" name="sumid"/>
@@ -1628,9 +1628,30 @@ def my_form_open(dialog, layer, feature):
     </Gui>
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>Meteorite_Landings20171018165701826</value>
+        <value>geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171018114707108</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
       <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
     </Digitizing>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
