@@ -22,10 +22,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-196.02957115364847596</xmin>
-      <ymin>-75.36348019510131735</ymin>
-      <xmax>181.97042884635175142</xmax>
-      <ymax>102.35339620490032075</ymax>
+      <xmin>-195.74776200851925978</xmin>
+      <ymin>-11.95911198973309553</ymin>
+      <xmax>-6.7477620085191603</xmax>
+      <ymax>76.89932621026773063</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -457,6 +457,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -482,7 +483,7 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -498,7 +499,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1155403264">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="name"/>
           <column width="-1" hidden="0" type="field" name="id"/>
@@ -513,10 +514,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1378,8 +1379,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{b5675314-47a9-476f-a4ea-2f13a0a5ce8b}">
-          <rule description="nome_stato" key="{c2b61cfd-232d-4d89-ab6c-8494b184b5cd}">
+        <rules key="{ad1efc41-745c-4c56-bec0-31f94c76f1ff}">
+          <rule description="nome_stato" key="{128b1c98-ed2d-40e9-a3e5-e0c21db18fd7}">
             <settings>
               <text-style fontItalic="0" fontFamily="Cantarell" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="14" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -1393,7 +1394,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule description="numero" filter=" '\n' || 'Num: ' || format_number(&quot;joined_vector_count&quot;, 2)" key="{9efdcb10-658f-4df2-a524-41f44cce5803}">
+          <rule description="numero" filter=" '\n' || 'Num: ' || format_number(&quot;joined_vector_count&quot;, 2)" key="{fa8bc140-14d3-466a-b560-a90742cbf329}">
             <settings>
               <text-style fontItalic="0" fontFamily="Cantarell" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="12" fieldName="joined_vector_count" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -1713,7 +1714,7 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="sumid" index="1" name=""/>
@@ -1725,7 +1726,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-976916081">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="name"/>
           <column width="-1" hidden="0" type="field" name="sumid"/>
@@ -1736,10 +1737,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
