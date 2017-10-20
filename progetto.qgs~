@@ -22,10 +22,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-74.65495944887706514</xmin>
-      <ymin>-35.04305936950412104</ymin>
-      <xmax>-27.40495944887706514</xmax>
-      <ymax>-12.82844981950391627</ymax>
+      <xmin>-177.39885685884655686</xmin>
+      <ymin>-74.55224607673930848</ymin>
+      <xmax>200.60114314115344314</xmax>
+      <ymax>103.16463032326051064</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -610,18 +610,17 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="format_number( &quot;joined_vector_count&quot; , 0)" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+      <renderer-v2 attr="&quot;joined_vector_count&quot;" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
         <ranges>
           <range render="true" symbol="0" lower="0.000000000000000" upper="1.000000000000000" label=" 0.0 - 1.0 "/>
-          <range render="true" symbol="1" lower="1.000000000000000" upper="1.000000000000000" label=" 1.0 - 1.0 "/>
-          <range render="true" symbol="2" lower="1.000000000000000" upper="2.000000000000000" label=" 1.0 - 2.0 "/>
-          <range render="true" symbol="3" lower="2.000000000000000" upper="3.000000000000000" label=" 2.0 - 3.0 "/>
-          <range render="true" symbol="4" lower="3.000000000000000" upper="4.000000000000000" label=" 3.0 - 4.0 "/>
-          <range render="true" symbol="5" lower="4.000000000000000" upper="7.000000000000000" label=" 4.0 - 7.0 "/>
-          <range render="true" symbol="6" lower="7.000000000000000" upper="11.000000000000000" label=" 7.0 - 11.0 "/>
-          <range render="true" symbol="7" lower="11.000000000000000" upper="24.400000000000034" label=" 11.0 - 24.4 "/>
-          <range render="true" symbol="8" lower="24.400000000000034" upper="80.000000000000000" label=" 24.4 - 80.0 "/>
-          <range render="true" symbol="9" lower="80.000000000000000" upper="638.000000000000000" label=" 80.0 - 638.0 "/>
+          <range render="true" symbol="1" lower="1.000000000000000" upper="2.000000000000000" label=" 1.0 - 2.0 "/>
+          <range render="true" symbol="2" lower="2.000000000000000" upper="3.000000000000000" label=" 2.0 - 3.0 "/>
+          <range render="true" symbol="3" lower="3.000000000000000" upper="5.000000000000000" label=" 3.0 - 5.0 "/>
+          <range render="true" symbol="4" lower="5.000000000000000" upper="7.000000000000000" label=" 5.0 - 7.0 "/>
+          <range render="true" symbol="5" lower="7.000000000000000" upper="14.000000000000000" label=" 7.0 - 14.0 "/>
+          <range render="true" symbol="6" lower="14.000000000000000" upper="34.200000000000017" label=" 14.0 - 34.2 "/>
+          <range render="true" symbol="7" lower="34.200000000000017" upper="90.200000000000045" label=" 34.2 - 90.2 "/>
+          <range render="true" symbol="8" lower="90.200000000000045" upper="20637.000000000000000" label=" 90.2 - 20637.0 "/>
         </ranges>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
@@ -642,7 +641,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="255,233,140,255"/>
+              <prop k="color" v="255,210,101,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -657,7 +656,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="255,210,101,255"/>
+              <prop k="color" v="254,183,81,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -672,7 +671,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="254,183,81,255"/>
+              <prop k="color" v="254,155,67,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -687,7 +686,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="254,155,67,255"/>
+              <prop k="color" v="251,123,53,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -702,7 +701,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="251,123,53,255"/>
+              <prop k="color" v="245,86,41,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -717,7 +716,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="245,86,41,255"/>
+              <prop k="color" v="235,52,32,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -732,21 +731,6 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="235,52,32,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="212,26,35,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
@@ -759,7 +743,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="style" v="solid"/>
             </layer>
           </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="189,0,38,255"/>
@@ -805,8 +789,8 @@ def my_form_open(dialog, layer, feature):
         <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="1"/>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{f3881cf4-29bc-4e7e-a6a1-801c64e2f528}">
-          <rule description="nome_stato" key="{13a83456-e664-4743-9196-baa9f2df9f9f}">
+        <rules key="{c7505bbf-3265-465c-b959-29497997d87a}">
+          <rule description="nome_stato" key="{6777825a-0594-4d03-8231-c363e5afb68b}">
             <settings>
               <text-style fontItalic="0" fontFamily="Cantarell" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="14" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -820,7 +804,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule description="numero" filter=" '\n' || 'Num: ' || format_number(&quot;joined_vector_count&quot;, 2)" key="{14e531c0-faf8-4bf2-985e-340e7efcf687}">
+          <rule description="numero" filter=" '\n' || 'Num: ' || format_number(&quot;joined_vector_count&quot;, 2)" key="{13c7f412-9c5d-468b-8531-dde03a63a531}">
             <settings>
               <text-style fontItalic="0" fontFamily="Cantarell" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="12" fieldName="joined_vector_count" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
