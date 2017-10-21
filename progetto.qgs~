@@ -7,31 +7,46 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Progetto Cortellucci Pedini">
       <customproperties/>
-      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteorite_Landings20171019165154379" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" name="Meteoriti_Anno">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Anno">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Checked" id="Meteoriti_Densità20171021131638880" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" name="Meteoriti_Densità">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp" name="WorldMap">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteorite_Landings20171019165154379" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" name="Meteoriti_Anno">
+          <customproperties>
+            <property key="legend/expressionFilter" value=""/>
+            <property key="legend/expressionFilterEnabled" value="false"/>
+          </customproperties>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Densità">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="Density20171021132512130" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Density.tif" name="Density">
+        <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteoriti_Densità20171021131638880" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" name="Meteoriti_Densità">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="Density20171021132512130" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Density.tif" name="Density">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="NumPerNazioni">
         <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171018114707108" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp" name="World_Map">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="joined_vector20171019165417729" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/joined_vector.csv" name="joined_vector">
-        <customproperties/>
-      </layer-tree-layer>
+        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171018114707108" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp" name="World_Map">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="joined_vector20171019165417729" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/joined_vector.csv" name="joined_vector">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
     </layer-tree-group>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-178.71626070863078439</xmin>
-      <ymin>-87.47647445865163718</ymin>
-      <xmax>181.28373929137052301</xmax>
-      <ymax>81.77769354134281343</ymax>
+      <xmin>-165.03957084779594311</xmin>
+      <ymin>-79.59252813658392256</ymin>
+      <xmax>194.96042915220542113</xmax>
+      <ymax>89.66163986341010173</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -57,35 +72,47 @@
       <item>joined_vector20171019165417729</item>
       <item>Meteoriti_Densità20171021131638880</item>
       <item>Density20171021132512130</item>
+      <item>geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Progetto Cortellucci Pedini">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Meteoriti_Anno" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Meteorite_Landings20171019165154379" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Meteoriti_Densità" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Meteoriti_Densità20171021131638880" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Density" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Density20171021132512130" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="World_Map" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171018114707108" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="joined_vector" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="joined_vector20171019165417729" visible="1"/>
-        </filegroup>
-      </legendlayer>
+      <legendgroup open="false" checked="Qt::Unchecked" name="Anno">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="WorldMap" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Meteoriti_Anno" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="Meteorite_Landings20171019165154379" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendgroup open="false" checked="Qt::Unchecked" name="Densità">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Meteoriti_Densità" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="Meteoriti_Densità20171021131638880" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Density" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="Density20171021132512130" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendgroup open="true" checked="Qt::Checked" name="NumPerNazioni">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="World_Map" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171018114707108" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="joined_vector" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="joined_vector20171019165417729" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
     </legendgroup>
   </legend>
   <projectlayers>
@@ -198,13 +225,13 @@
       <renderer-v2 attr=" to_int(right( left(&quot;year&quot;, 10 ), 4))" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
         <ranges>
           <range render="true" symbol="0" lower="860.000000000000000" upper="1800.000000000000000" label=" 860 - 1800 "/>
-          <range render="true" symbol="1" lower="1800.000000000000000" upper="1900.000000000000000" label=" 1800 - 1900 "/>
-          <range render="true" symbol="2" lower="1900.000000000000000" upper="1920.000000000000000" label=" 1900 - 1920 "/>
-          <range render="true" symbol="3" lower="1920.000000000000000" upper="1940.000000000000000" label=" 1920 - 1940 "/>
-          <range render="true" symbol="4" lower="1940.000000000000000" upper="1960.000000000000000" label=" 1940 - 1960 "/>
-          <range render="true" symbol="5" lower="1960.000000000000000" upper="1980.000000000000000" label=" 1960 - 1980 "/>
-          <range render="true" symbol="6" lower="1980.000000000000000" upper="2000.000000000000000" label=" 1980 - 2000 "/>
-          <range render="true" symbol="7" lower="2000.000000000000000" upper="2015.000000000000000" label=" 2000 - 2015 "/>
+          <range render="false" symbol="1" lower="1800.000000000000000" upper="1900.000000000000000" label=" 1800 - 1900 "/>
+          <range render="false" symbol="2" lower="1900.000000000000000" upper="1920.000000000000000" label=" 1900 - 1920 "/>
+          <range render="false" symbol="3" lower="1920.000000000000000" upper="1940.000000000000000" label=" 1920 - 1940 "/>
+          <range render="false" symbol="4" lower="1940.000000000000000" upper="1960.000000000000000" label=" 1940 - 1960 "/>
+          <range render="false" symbol="5" lower="1960.000000000000000" upper="1980.000000000000000" label=" 1960 - 1980 "/>
+          <range render="false" symbol="6" lower="1980.000000000000000" upper="2000.000000000000000" label=" 1980 - 2000 "/>
+          <range render="false" symbol="7" lower="2000.000000000000000" upper="2015.000000000000000" label=" 2000 - 2015 "/>
         </ranges>
         <symbols>
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="0">
@@ -757,8 +784,8 @@ def my_form_open(dialog, layer, feature):
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="255,127,0,255"/>
+              <prop k="angle" v="1"/>
+              <prop k="color" v="66,147,181,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="miter"/>
               <prop k="name" v="circle"/>
@@ -774,13 +801,13 @@ def my_form_open(dialog, layer, feature):
               <prop k="size" v="2"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
+              <prop k="vertical_anchor_point" v="0"/>
             </layer>
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="45,150,26,255"/>
+              <prop k="color" v="0,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="miter"/>
               <prop k="name" v="circle"/>
@@ -823,8 +850,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -1000,6 +1025,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1025,7 +1051,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -1041,7 +1067,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-692387840">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="name"/>
           <column width="-1" hidden="0" type="field" name="id"/>
@@ -1056,10 +1082,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1154,15 +1180,13 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 attr="&quot;joined_vector_count&quot;" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
         <ranges>
-          <range render="true" symbol="0" lower="0.000000000000000" upper="1.000000000000000" label=" 0.0 - 1.0 "/>
-          <range render="true" symbol="1" lower="1.000000000000000" upper="2.000000000000000" label=" 1.0 - 2.0 "/>
-          <range render="true" symbol="2" lower="2.000000000000000" upper="3.000000000000000" label=" 2.0 - 3.0 "/>
-          <range render="true" symbol="3" lower="3.000000000000000" upper="5.000000000000000" label=" 3.0 - 5.0 "/>
-          <range render="true" symbol="4" lower="5.000000000000000" upper="7.000000000000000" label=" 5.0 - 7.0 "/>
-          <range render="true" symbol="5" lower="7.000000000000000" upper="14.000000000000000" label=" 7.0 - 14.0 "/>
-          <range render="true" symbol="6" lower="14.000000000000000" upper="34.200000000000017" label=" 14.0 - 34.2 "/>
-          <range render="true" symbol="7" lower="34.200000000000017" upper="90.200000000000045" label=" 34.2 - 90.2 "/>
-          <range render="true" symbol="8" lower="90.200000000000045" upper="20637.000000000000000" label=" 90.2 - 20637.0 "/>
+          <range render="true" symbol="0" lower="0.000000000000000" upper="1.000000000000000" label=" 0 - 1 "/>
+          <range render="true" symbol="1" lower="1.000000000000000" upper="2.000000000000000" label=" 1 - 2 "/>
+          <range render="true" symbol="2" lower="2.000000000000000" upper="3.000000000000000" label=" 2 - 3 "/>
+          <range render="true" symbol="3" lower="3.000000000000000" upper="7.000000000000000" label=" 3 - 7 "/>
+          <range render="true" symbol="4" lower="7.000000000000000" upper="15.000000000000000" label=" 7 - 15 "/>
+          <range render="true" symbol="5" lower="15.000000000000000" upper="80.000000000000000" label=" 15 - 80 "/>
+          <range render="true" symbol="6" lower="80.000000000000000" upper="20637.000000000000000" label=" 80 - 20637 "/>
         </ranges>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
@@ -1221,7 +1245,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="232,229,232,255"/>
+              <prop k="color" v="234,230,227,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1250,7 +1274,7 @@ def my_form_open(dialog, layer, feature):
               <symbol alpha="1" clip_to_extent="1" type="marker" name="@1@1">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
-                  <prop k="color" v="232,229,232,255"/>
+                  <prop k="color" v="234,230,227,255"/>
                   <prop k="horizontal_anchor_point" v="1"/>
                   <prop k="joinstyle" v="bevel"/>
                   <prop k="name" v="circle"/>
@@ -1274,7 +1298,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="236,230,218,255"/>
+              <prop k="color" v="238,231,208,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1303,7 +1327,7 @@ def my_form_open(dialog, layer, feature):
               <symbol alpha="1" clip_to_extent="1" type="marker" name="@2@1">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
-                  <prop k="color" v="236,230,218,255"/>
+                  <prop k="color" v="238,231,208,255"/>
                   <prop k="horizontal_anchor_point" v="1"/>
                   <prop k="joinstyle" v="bevel"/>
                   <prop k="name" v="circle"/>
@@ -1325,59 +1349,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="239,230,203,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="175,179,138,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-            <layer pass="0" class="PointPatternFill" locked="0">
-              <prop k="displacement_x" v="0"/>
-              <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="displacement_x_unit" v="MM"/>
-              <prop k="displacement_y" v="1"/>
-              <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="displacement_y_unit" v="MM"/>
-              <prop k="distance_x" v="1.5"/>
-              <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="distance_x_unit" v="MM"/>
-              <prop k="distance_y" v="2"/>
-              <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="distance_y_unit" v="MM"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@3@1">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="239,230,203,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="circle"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="0,0,0,0"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="area"/>
-                  <prop k="size" v="0.6"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="242,231,189,255"/>
@@ -1406,7 +1377,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="distance_y_unit" v="MM"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@4@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@3@1">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="242,231,189,255"/>
@@ -1430,10 +1401,63 @@ def my_form_open(dialog, layer, feature):
               </symbol>
             </layer>
           </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="247,232,169,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="175,179,138,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+            <layer pass="0" class="PointPatternFill" locked="0">
+              <prop k="displacement_x" v="0"/>
+              <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="displacement_x_unit" v="MM"/>
+              <prop k="displacement_y" v="1"/>
+              <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="displacement_y_unit" v="MM"/>
+              <prop k="distance_x" v="1.5"/>
+              <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="distance_x_unit" v="MM"/>
+              <prop k="distance_y" v="2"/>
+              <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="distance_y_unit" v="MM"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@4@1">
+                <layer pass="0" class="SimpleMarker" locked="0">
+                  <prop k="angle" v="0"/>
+                  <prop k="color" v="247,232,169,255"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="joinstyle" v="bevel"/>
+                  <prop k="name" v="circle"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="0,0,0,0"/>
+                  <prop k="outline_style" v="solid"/>
+                  <prop k="outline_width" v="0"/>
+                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="area"/>
+                  <prop k="size" v="0.6"/>
+                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
+                </layer>
+              </symbol>
+            </layer>
+          </symbol>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="246,231,174,255"/>
+              <prop k="color" v="251,233,150,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1462,7 +1486,7 @@ def my_form_open(dialog, layer, feature):
               <symbol alpha="1" clip_to_extent="1" type="marker" name="@5@1">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
-                  <prop k="color" v="246,231,174,255"/>
+                  <prop k="color" v="251,233,150,255"/>
                   <prop k="horizontal_anchor_point" v="1"/>
                   <prop k="joinstyle" v="bevel"/>
                   <prop k="name" v="circle"/>
@@ -1484,112 +1508,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="249,232,160,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="175,179,138,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-            <layer pass="0" class="PointPatternFill" locked="0">
-              <prop k="displacement_x" v="0"/>
-              <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="displacement_x_unit" v="MM"/>
-              <prop k="displacement_y" v="1"/>
-              <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="displacement_y_unit" v="MM"/>
-              <prop k="distance_x" v="1.5"/>
-              <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="distance_x_unit" v="MM"/>
-              <prop k="distance_y" v="2"/>
-              <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="distance_y_unit" v="MM"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@6@1">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="249,232,160,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="circle"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="0,0,0,0"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="area"/>
-                  <prop k="size" v="0.6"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="252,232,145,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="175,179,138,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-            <layer pass="0" class="PointPatternFill" locked="0">
-              <prop k="displacement_x" v="0"/>
-              <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="displacement_x_unit" v="MM"/>
-              <prop k="displacement_y" v="1"/>
-              <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="displacement_y_unit" v="MM"/>
-              <prop k="distance_x" v="1.5"/>
-              <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="distance_x_unit" v="MM"/>
-              <prop k="distance_y" v="2"/>
-              <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="distance_y_unit" v="MM"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@7@1">
-                <layer pass="0" class="SimpleMarker" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="252,232,145,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="circle"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="0,0,0,0"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="area"/>
-                  <prop k="size" v="0.6"/>
-                  <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
-                </layer>
-              </symbol>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="255,233,131,255"/>
@@ -1618,7 +1536,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="distance_y_unit" v="MM"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
-              <symbol alpha="1" clip_to_extent="1" type="marker" name="@8@1">
+              <symbol alpha="1" clip_to_extent="1" type="marker" name="@6@1">
                 <layer pass="0" class="SimpleMarker" locked="0">
                   <prop k="angle" v="0"/>
                   <prop k="color" v="255,233,131,255"/>
@@ -1707,11 +1625,11 @@ def my_form_open(dialog, layer, feature):
         <mode name="quantile"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
-        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="1"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="0"/>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{4abd63b0-c4ab-4408-8d93-cc2ed913fc0c}">
-          <rule description="nome_stato" key="{ba1b96f0-3ac5-4a81-8d1d-854d910cedd1}">
+        <rules key="{a14c8cec-94b0-4b16-8514-b7e3557ccf3a}">
+          <rule description="nome_stato" key="{be426bda-71ff-436e-8382-e268349e7c99}">
             <settings>
               <text-style fontItalic="0" fontFamily="Cantarell" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="14" fieldName="name" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -1725,7 +1643,7 @@ def my_form_open(dialog, layer, feature):
               <data-defined/>
             </settings>
           </rule>
-          <rule description="numero" filter=" '\n' || 'Num: ' || format_number(&quot;joined_vector_count&quot;, 2)" key="{692801ff-497e-40ff-b8c7-513493ebb3de}">
+          <rule description="numero" filter=" '\n' || 'Num: ' || format_number(&quot;joined_vector_count&quot;, 2)" key="{00882b7d-fd32-46b8-a4da-5aacbfaad3aa}">
             <settings>
               <text-style fontItalic="0" fontFamily="Cantarell" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="12" fieldName="joined_vector_count" namedStyle="Regular" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -1997,6 +1915,112 @@ def my_form_open(dialog, layer, feature):
         <default field="joined_vector_count" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "name", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540</id>
+      <datasource>./dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>WorldMap</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="name">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="220,88,84,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>name</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="Cantarell"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="name" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1546673201">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="name" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>joined_vector20171019165417729</id>
