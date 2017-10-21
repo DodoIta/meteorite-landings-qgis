@@ -22,10 +22,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-168.00521868787245694</xmin>
-      <ymin>-58.83624908990745439</ymin>
-      <xmax>209.99478131212754306</xmax>
-      <ymax>118.88062731008707829</ymax>
+      <xmin>-185.20649297573910985</xmin>
+      <ymin>-69.1541148445981122</ymin>
+      <xmax>192.79350702426077646</xmax>
+      <ymax>108.56276155539624995</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -131,16 +131,14 @@
       </edittypes>
       <renderer-v2 attr=" to_int(right( left(&quot;year&quot;, 10 ), 4))" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
         <ranges>
-          <range render="true" symbol="0" lower="860.000000000000000" upper="1979.000000000000000" label=" 860 - 1979 "/>
-          <range render="true" symbol="1" lower="1979.000000000000000" upper="1985.000000000000000" label=" 1979 - 1985 "/>
-          <range render="true" symbol="2" lower="1985.000000000000000" upper="1988.000000000000000" label=" 1985 - 1988 "/>
-          <range render="true" symbol="3" lower="1988.000000000000000" upper="1994.000000000000000" label=" 1988 - 1994 "/>
-          <range render="true" symbol="4" lower="1994.000000000000000" upper="1998.000000000000000" label=" 1994 - 1998 "/>
-          <range render="true" symbol="5" lower="1998.000000000000000" upper="2000.000000000000000" label=" 1998 - 2000 "/>
-          <range render="true" symbol="6" lower="2000.000000000000000" upper="2003.000000000000000" label=" 2000 - 2003 "/>
-          <range render="true" symbol="7" lower="2003.000000000000000" upper="2004.000000000000000" label=" 2003 - 2004 "/>
-          <range render="true" symbol="8" lower="2004.000000000000000" upper="2007.000000000000000" label=" 2004 - 2007 "/>
-          <range render="true" symbol="9" lower="2007.000000000000000" upper="2015.000000000000000" label=" 2007 - 2015 "/>
+          <range render="true" symbol="0" lower="860.000000000000000" upper="1800.000000000000000" label=" 860 - 1800 "/>
+          <range render="true" symbol="1" lower="1800.000000000000000" upper="1900.000000000000000" label=" 1800 - 1900 "/>
+          <range render="true" symbol="2" lower="1900.000000000000000" upper="1920.000000000000000" label=" 1900 - 1920 "/>
+          <range render="true" symbol="3" lower="1920.000000000000000" upper="1940.000000000000000" label=" 1920 - 1940 "/>
+          <range render="true" symbol="4" lower="1940.000000000000000" upper="1960.000000000000000" label=" 1940 - 1960 "/>
+          <range render="true" symbol="5" lower="1960.000000000000000" upper="1980.000000000000000" label=" 1960 - 1980 "/>
+          <range render="true" symbol="6" lower="1980.000000000000000" upper="2000.000000000000000" label=" 1980 - 2000 "/>
+          <range render="true" symbol="7" lower="2000.000000000000000" upper="2015.000000000000000" label=" 2000 - 2015 "/>
         </ranges>
         <symbols>
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="0">
@@ -168,7 +166,7 @@
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="255,233,140,255"/>
+              <prop k="color" v="255,226,129,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -190,7 +188,7 @@
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="2">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="255,210,101,255"/>
+              <prop k="color" v="254,195,87,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -212,7 +210,7 @@
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="3">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="254,183,81,255"/>
+              <prop k="color" v="254,159,69,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -234,7 +232,7 @@
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="4">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="254,155,67,255"/>
+              <prop k="color" v="250,118,52,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -256,7 +254,7 @@
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="5">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="251,123,53,255"/>
+              <prop k="color" v="242,70,36,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -278,7 +276,7 @@
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="6">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="245,86,41,255"/>
+              <prop k="color" v="218,33,34,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -298,50 +296,6 @@
             </layer>
           </symbol>
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="7">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="235,52,32,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="1.4"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="8">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="212,26,35,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="1.4"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="9">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="189,0,38,255"/>
@@ -428,7 +382,7 @@
         <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/drawLabels" value="true"/>
         <property key="labeling/enabled" value="true"/>
-        <property key="labeling/fieldName" value=" 'Anno: ' || right( left(&quot;year&quot;, 10 ), 4)"/>
+        <property key="labeling/fieldName" value=" right( left(&quot;year&quot;, 10 ), 4)"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="Cantarell"/>
@@ -437,7 +391,7 @@
         <property key="labeling/fontLimitPixelSize" value="false"/>
         <property key="labeling/fontMaxPixelSize" value="10000"/>
         <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="11"/>
+        <property key="labeling/fontSize" value="12"/>
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/fontStrikeout" value="false"/>
@@ -453,14 +407,14 @@
         <property key="labeling/limitNumLabels" value="false"/>
         <property key="labeling/maxCurvedCharAngleIn" value="25"/>
         <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/maxNumLabels" value="100"/>
         <property key="labeling/mergeLines" value="false"/>
         <property key="labeling/minFeatureSize" value="0"/>
         <property key="labeling/multilineAlign" value="3"/>
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Regular"/>
         <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleFactor" value="2"/>
         <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
@@ -477,9 +431,9 @@
         <property key="labeling/repeatDistanceUnit" value="1"/>
         <property key="labeling/reverseDirectionSymbol" value="false"/>
         <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMax" value="200000"/>
         <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/scaleVisibility" value="true"/>
         <property key="labeling/shadowBlendMode" value="6"/>
         <property key="labeling/shadowColorB" value="0"/>
         <property key="labeling/shadowColorG" value="0"/>
