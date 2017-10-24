@@ -21,7 +21,7 @@
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Densità">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteoriti_Densità20171021131638880" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" name="Meteoriti_Densità">
+        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteoriti_Densità20171021131638880" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" name="Meteoriti_Densità">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="Density20171021132512130" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Density.tif" name="Density">
@@ -46,10 +46,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-163.44146417533050908</xmin>
-      <ymin>-74.86146141192757852</ymin>
-      <xmax>196.55853582466949092</xmax>
-      <ymax>94.39270658805735081</ymax>
+      <xmin>-171.52978211350642823</xmin>
+      <ymin>-91.4527522303123277</ymin>
+      <xmax>193.45888001801262135</xmax>
+      <ymax>80.14683759884799485</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -94,8 +94,8 @@
         </legendlayer>
       </legendgroup>
       <legendgroup open="false" checked="Qt::Unchecked" name="Densità">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Meteoriti_Densità" showFeatureCount="0">
-          <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Meteoriti_Densità" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="Meteoriti_Densità20171021131638880" visible="0"/>
           </filegroup>
         </legendlayer>
@@ -233,14 +233,14 @@
       </edittypes>
       <renderer-v2 attr=" to_int(right( left(&quot;year&quot;, 10 ), 4))" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
         <ranges>
-          <range render="true" symbol="0" lower="860.000000000000000" upper="1800.000000000000000" label=" 860 - 1800 "/>
-          <range render="false" symbol="1" lower="1800.000000000000000" upper="1900.000000000000000" label=" 1800 - 1900 "/>
-          <range render="false" symbol="2" lower="1900.000000000000000" upper="1920.000000000000000" label=" 1900 - 1920 "/>
-          <range render="false" symbol="3" lower="1920.000000000000000" upper="1940.000000000000000" label=" 1920 - 1940 "/>
-          <range render="false" symbol="4" lower="1940.000000000000000" upper="1960.000000000000000" label=" 1940 - 1960 "/>
-          <range render="false" symbol="5" lower="1960.000000000000000" upper="1980.000000000000000" label=" 1960 - 1980 "/>
-          <range render="false" symbol="6" lower="1980.000000000000000" upper="2000.000000000000000" label=" 1980 - 2000 "/>
-          <range render="true" symbol="7" lower="2000.000000000000000" upper="2015.000000000000000" label=" 2000 - 2015 "/>
+          <range render="true" symbol="0" lower="1500.000000000000000" upper="1800.000000000000000" label=" 1500 - 1800 "/>
+          <range render="true" symbol="1" lower="1800.000000000000000" upper="1900.000000000000000" label=" 1800 - 1900 "/>
+          <range render="true" symbol="2" lower="1900.000000000000000" upper="1920.000000000000000" label=" 1900 - 1920 "/>
+          <range render="true" symbol="3" lower="1920.000000000000000" upper="1940.000000000000000" label=" 1920 - 1940 "/>
+          <range render="true" symbol="4" lower="1940.000000000000000" upper="1960.000000000000000" label=" 1940 - 1960 "/>
+          <range render="true" symbol="5" lower="1960.000000000000000" upper="1980.000000000000000" label=" 1960 - 1980 "/>
+          <range render="true" symbol="6" lower="1980.000000000000000" upper="2000.000000000000000" label=" 1980 - 2000 "/>
+          <range render="true" symbol="7" lower="2000.000000000000000" upper="2013.000000000000000" label=" 2000 - 2013 "/>
         </ranges>
         <symbols>
           <symbol alpha="0.603922" clip_to_extent="1" type="marker" name="0">
@@ -670,7 +670,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;year&quot;" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="name"/>
           <column width="-1" hidden="0" type="field" name="id"/>
@@ -985,6 +985,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1010,7 +1011,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -1026,7 +1027,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1546673201">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="name"/>
           <column width="-1" hidden="0" type="field" name="id"/>
@@ -1041,10 +1042,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -2511,6 +2512,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -2536,23 +2538,23 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1546673201">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="name"/>
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
