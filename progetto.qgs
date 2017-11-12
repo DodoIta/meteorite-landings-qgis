@@ -10,12 +10,12 @@
       <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteorite_Landings20171111184926284" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="Meteorite_Landings">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Conteggio">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="Conteggio">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Count20171110113502283" source="/home/dodo/.qgis2/processing/outputs/meteorites_count.shp" name="Count">
+        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="Count20171110113502283" source="/home/dodo/.qgis2/processing/outputs/meteorites_count.shp" name="Count">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp" name="WorldMap">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp" name="WorldMap">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -52,15 +52,15 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="USA">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="USA">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="meteorites_usa20171111131054270" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_usa.shp" name="meteorites_usa">
+        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="meteorites_usa20171111131054270" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_usa.shp" name="meteorites_usa">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_USA20171111131918800" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="usa20171111130544912" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/usa.shp" name="usa">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="usa20171111130544912" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/usa.shp" name="usa">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -70,10 +70,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-174.41177227500000413</xmin>
-      <ymin>17.60515064999999879</ymin>
-      <xmax>-64.34399872499997741</xmax>
-      <ymax>72.66880335000000457</ymax>
+      <xmin>-189</xmin>
+      <ymin>-89.84039219999999659</ymin>
+      <xmax>189</xmax>
+      <ymax>87.87648419999999305</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -117,15 +117,15 @@
           <legendlayerfile isInOverview="0" layerid="Meteorite_Landings20171111184926284" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Conteggio">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Count" showFeatureCount="0">
+      <legendgroup open="false" checked="Qt::Checked" name="Conteggio">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Count" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Count20171110113502283" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="Count20171110113502283" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="WorldMap" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="WorldMap" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -175,10 +175,10 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::PartiallyChecked" name="USA">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="meteorites_usa" showFeatureCount="0">
+      <legendgroup open="false" checked="Qt::Unchecked" name="USA">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="meteorites_usa" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="meteorites_usa20171111131054270" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="meteorites_usa20171111131054270" visible="0"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Heatmap_USA" showFeatureCount="0">
@@ -186,15 +186,15 @@
             <legendlayerfile isInOverview="0" layerid="Heatmap_USA20171111131918800" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="usa" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="usa" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="usa20171111130544912" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="usa20171111130544912" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
     </legendgroup>
   </legend>
-  <Composer title="USA" visible="1">
+  <Composer title="USA" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{881eceb7-f21d-4e9b-87fc-1f5b0f3e9ea9}" alignmentSnap="1" printResolution="300" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -2184,6 +2184,7 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="meteorites_oman20171110184130885" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_oman.shp" name="meteorites_oman">
             <customproperties>
+              <property key="expandedLegendNodes"/>
               <property key="legend/title-label" value="Weight (grams)"/>
             </customproperties>
           </layer-tree-layer>
@@ -3066,6 +3067,163 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
+      <customproperties>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
+      </customproperties>
+    </Composition>
+  </Composer>
+  <Composer title="Count" visible="0">
+    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{6fa6bca3-5ae4-42b3-a5e0-9be66cf42623}" alignmentSnap="1" printResolution="300" paperWidth="297" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="210" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <ComposerLegend symbolWidth="7" title="Legend" rasterBorderWidth="0" titleAlignment="4" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" legendFilterByAtlas="0" columnCount="1" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="2" rasterBorder="1">
+        <styles>
+          <style marginBottom="2" name="title">
+            <styleFont description="Cantarell,16,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="group">
+            <styleFont description="Cantarell,14,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="subgroup">
+            <styleFont description="Cantarell,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="symbol">
+            <styleFont description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" marginLeft="2" name="symbolLabel">
+            <styleFont description="Cantarell,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+        </styles>
+        <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+          <customproperties/>
+          <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Count20171110113502283" source="/home/dodo/.qgis2/processing/outputs/meteorites_count.shp" name="Count">
+            <customproperties>
+              <property key="expandedLegendNodes"/>
+            </customproperties>
+          </layer-tree-layer>
+        </layer-tree-group>
+        <ComposerItem pagey="100.665" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.54603" y="100.665" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="40.9453" outlineWidth="0.3" excludeFromExports="0" uuid="{ca646822-22d1-4008-8dad-ff3426b3e46e}" height="50.1" itemRotation="0" frame="true" pagex="6.54603">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLegend>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Total number of meteorites per Nation/Continent" htmlState="0" halign="1">
+        <LabelFont description="Cantarell,36,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="20.7334" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.39603" y="20.7334" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="284.208" outlineWidth="0.3" excludeFromExports="0" uuid="{f6db59fe-1974-405f-9bf9-e7d08ca23d62}" height="24.2567" itemRotation="0" frame="false" pagex="6.39603">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="-105.62708322465209676" xmin="-189" ymax="149.35573562213028254" xmax="189"/>
+        <LayerSet/>
+        <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{38965e57-180d-4202-9bee-7bc3b2cc43eb}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="0,0,0,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="diameter"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+        </ComposerMapGrid>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+        <ComposerItem pagey="24.8514" page="1" id="" lastValidViewScaleFactor="2.47354" positionMode="0" positionLock="false" x="3.23423" y="24.8514" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="224.337" outlineWidth="0.3" excludeFromExports="0" uuid="{6fa6bca3-5ae4-42b3-a5e0-9be66cf42623}" height="151.328" itemRotation="0" frame="false" pagex="3.23423">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerMap>
+      <ComposerAttributeTableV2 vectorLayerName="Count" source="0" showGrid="1" maxFeatures="12" resizeMode="0" filterFeatures="true" featureFilter=" &quot;count&quot; > 100" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="Count20171110113502283" vectorLayerSource="/home/dodo/.qgis2/processing/outputs/meteorites_count.shp" composerMap="0" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0" vectorLayerProvider="ogr">
+        <headerFontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="1">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="count" sortByRank="1" hAlignment="1" heading="Count" sortOrder="1">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <ComposerFrame sectionWidth="58.9906" sectionHeight="70.1424" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="73.4546" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="227.571" y="73.4546" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="58.9906" outlineWidth="0.3" excludeFromExports="0" uuid="{5cd27236-5362-4498-a672-47abe4386f2d}" height="70.1424" itemRotation="0" frame="false" pagex="227.571">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <customproperties/>
+      </ComposerAttributeTableV2>
       <customproperties>
         <property key="imageCropMarginBottom" value="0"/>
         <property key="imageCropMarginLeft" value="0"/>
