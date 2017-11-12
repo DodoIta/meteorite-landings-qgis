@@ -28,15 +28,15 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Antartide">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Antartide">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="meteorites_antarctica_copy20171110123742265" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="meteorites_antarctica_copy20171110123742265" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_Antarctica20171111130250294" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_Antarctica.tif" name="Heatmap_Antarctica">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="antarctica20171110115528451" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/antarctica.shp" name="antarctica">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="antarctica20171110115528451" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/antarctica.shp" name="antarctica">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -52,15 +52,15 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="USA">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="USA">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="meteorites_usa20171111131054270" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_usa.shp" name="meteorites_usa">
+        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="meteorites_usa20171111131054270" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_usa.shp" name="meteorites_usa">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_USA20171111131918800" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="usa20171111130544912" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/usa.shp" name="usa">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="usa20171111130544912" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/usa.shp" name="usa">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -70,10 +70,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-174.41177227500000413</xmin>
-      <ymin>17.60515064999999879</ymin>
-      <xmax>-64.34399872499997741</xmax>
-      <ymax>72.66880335000000457</ymax>
+      <xmin>-174.52412999480006306</xmin>
+      <ymin>-74.52563224583632007</ymin>
+      <xmax>203.41549395520010535</xmax>
+      <ymax>-33.91274400658225829</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -141,10 +141,10 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Antartide">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="meteorites_antarctica_mass" showFeatureCount="0">
-          <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="meteorites_antarctica_copy20171110123742265" visible="0"/>
+      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Antartide">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="meteorites_antarctica_mass" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="meteorites_antarctica_copy20171110123742265" visible="1"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Heatmap_Antarctica" showFeatureCount="0">
@@ -152,9 +152,9 @@
             <legendlayerfile isInOverview="0" layerid="Heatmap_Antarctica20171111130250294" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="antarctica" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="antarctica" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="antarctica20171110115528451" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="antarctica20171110115528451" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -175,10 +175,10 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::PartiallyChecked" name="USA">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="meteorites_usa" showFeatureCount="0">
+      <legendgroup open="false" checked="Qt::Unchecked" name="USA">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="meteorites_usa" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="meteorites_usa20171111131054270" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="meteorites_usa20171111131054270" visible="0"/>
           </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Heatmap_USA" showFeatureCount="0">
@@ -186,15 +186,15 @@
             <legendlayerfile isInOverview="0" layerid="Heatmap_USA20171111131918800" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="usa" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="usa" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="usa20171111130544912" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="usa20171111130544912" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
     </legendgroup>
   </legend>
-  <Composer title="USA" visible="1">
+  <Composer title="USA" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{881eceb7-f21d-4e9b-87fc-1f5b0f3e9ea9}" alignmentSnap="1" printResolution="300" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -233,6 +233,7 @@
           <customproperties/>
           <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_USA20171111131918800" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">
             <customproperties>
+              <property key="expandedLegendNodes" value=""/>
               <property key="legend/title-label" value="Number (per circle)"/>
             </customproperties>
           </layer-tree-layer>
@@ -640,6 +641,7 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="meteorites_usa20171111131054270" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_usa.shp" name="meteorites_usa">
             <customproperties>
+              <property key="expandedLegendNodes" value="3"/>
               <property key="legend/title-label" value="Weight (grams)"/>
             </customproperties>
           </layer-tree-layer>
@@ -718,7 +720,13 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
-      <customproperties/>
+      <customproperties>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
+      </customproperties>
     </Composition>
   </Composer>
   <projectlayers>
@@ -13554,22 +13562,17 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 attr="mass (g)" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
         <ranges>
-          <range render="true" symbol="0" lower="0.010000000000000" upper="1.400000000000000" label=" 0 - 1 "/>
-          <range render="true" symbol="1" lower="1.400000000000000" upper="2.900000000000000" label=" 1 - 3 "/>
-          <range render="true" symbol="2" lower="2.900000000000000" upper="5.100000000000000" label=" 3 - 5 "/>
-          <range render="true" symbol="3" lower="5.100000000000000" upper="8.500000000000000" label=" 5 - 8 "/>
-          <range render="true" symbol="4" lower="8.500000000000000" upper="13.434999999999999" label=" 8 - 13 "/>
-          <range render="true" symbol="5" lower="13.434999999999999" upper="21.399999999999999" label=" 13 - 21 "/>
-          <range render="true" symbol="6" lower="21.399999999999999" upper="36.326999999999984" label=" 21 - 36 "/>
-          <range render="true" symbol="7" lower="36.326999999999984" upper="70.368000000000180" label=" 36 - 70 "/>
-          <range render="true" symbol="8" lower="70.368000000000180" upper="189.317999999999984" label=" 70 - 189 "/>
-          <range render="true" symbol="9" lower="189.317999999999984" upper="407000.000000000000000" label=" 189 - 407000 "/>
+          <range render="true" symbol="0" lower="0.010000000000000" upper="2.900000000000000" label=" 0.0 - 2.9 "/>
+          <range render="true" symbol="1" lower="2.900000000000000" upper="8.500000000000000" label=" 2.9 - 8.5 "/>
+          <range render="true" symbol="2" lower="8.500000000000000" upper="21.399999999999999" label=" 8.5 - 21.4 "/>
+          <range render="true" symbol="3" lower="21.399999999999999" upper="70.368000000000180" label=" 21.4 - 70.4 "/>
+          <range render="true" symbol="4" lower="70.368000000000180" upper="407000.000000000000000" label=" 70.4 - 407000.0 "/>
         </ranges>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="247,251,255,255"/>
+              <prop k="color" v="255,255,178,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -13582,7 +13585,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
+              <prop k="size" v="1"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -13591,7 +13594,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="226,238,249,255"/>
+              <prop k="color" v="254,204,92,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -13613,7 +13616,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="205,224,242,255"/>
+              <prop k="color" v="253,141,60,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -13626,7 +13629,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
+              <prop k="size" v="3"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -13635,7 +13638,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="3">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="176,210,232,255"/>
+              <prop k="color" v="240,59,32,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -13648,7 +13651,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
+              <prop k="size" v="4"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -13657,7 +13660,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="137,191,221,255"/>
+              <prop k="color" v="189,0,38,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -13670,117 +13673,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="5">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="96,166,210,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="6">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="62,142,196,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="7">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="33,114,182,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="8">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="10,84,158,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="9">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="8,48,107,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
+              <prop k="size" v="5"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -13812,10 +13705,10 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </source-symbol>
         <colorramp type="gradient" name="[source]">
-          <prop k="color1" v="247,251,255,255"/>
-          <prop k="color2" v="8,48,107,255"/>
+          <prop k="color1" v="255,255,178,255"/>
+          <prop k="color2" v="189,0,38,255"/>
           <prop k="discrete" v="0"/>
-          <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
+          <prop k="stops" v="0.25;254,204,92,255:0.5;253,141,60,255:0.75;240,59,32,255"/>
         </colorramp>
         <invertedcolorramp value="0"/>
         <mode name="quantile"/>
