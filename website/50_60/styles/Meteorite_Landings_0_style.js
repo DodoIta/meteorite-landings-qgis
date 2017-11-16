@@ -1,7 +1,7 @@
 var size = 0;
 
 
-var style_1950_1960_0 = function(feature, resolution){
+var style_Meteorite_Landings_0 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -17,35 +17,35 @@ var style_1950_1960_0 = function(feature, resolution){
     if ("" !== null) {
         labelText = String("");
     }
-    if (value > 0.000000 && value <= 0.374440) {
+    if (value > 0.000000 && value <= 0.391480) {
             style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
             stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(255,255,178,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill)
     })]
-                    } else if (value > 0.374440 && value <= 1.630000) {
+                    } else if (value > 0.391480 && value <= 1.829920) {
             style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
             stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(254,204,92,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill)
     })]
-                    } else if (value > 1.630000 && value <= 6.704000) {
+                    } else if (value > 1.829920 && value <= 6.800000) {
             style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
             stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(253,141,60,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill)
     })]
-                    } else if (value > 6.704000 && value <= 21.032000) {
+                    } else if (value > 6.800000 && value <= 21.280000) {
             style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
             stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(240,59,32,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill)
     })]
-                    } else if (value > 21.032000 && value <= 9500.000000) {
+                    } else if (value > 21.280000 && value <= 9500.000000) {
             style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
             stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(189,0,38,1.0)'})}),
@@ -58,7 +58,7 @@ var style_1950_1960_0 = function(feature, resolution){
 }
 function update() {
 
-    var features = lyr_1950_1960_0.getSource().getFeatures();
+    var features = lyr_Meteorite_Landings_0.getSource().getFeatures();
     features.forEach(function(feature){
         var context = {
             feature: feature,

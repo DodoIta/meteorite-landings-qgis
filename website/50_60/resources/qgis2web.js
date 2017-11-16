@@ -25,7 +25,7 @@ var map = new ol.Map({
     overlays: [overlayPopup],
     layers: layersList,
     view: new ol.View({
-        extent: [-20026376.390000, -20048966.100000, 20026376.390000, 20048966.100000], maxZoom: 28, minZoom: 1
+         maxZoom: 28, minZoom: 1
     })
 });
 
@@ -75,7 +75,7 @@ var featureOverlay = new ol.layer.Vector({
     updateWhileInteracting: true // optional, for instant visual feedback
 });
 
-var doHighlight = true;
+var doHighlight = false;
 var doHover = true;
 
 var highlight;
