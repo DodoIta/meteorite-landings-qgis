@@ -59,3 +59,23 @@ h1 a:hover {
   margin-top: 40px;
   color: #f4f4f4;
 }
+
+#lighter {
+  color: #ffffb2;
+}
+
+#light {
+  color: #fecc5c;
+}
+
+#medium {
+  color: #fd8d3c;
+}
+
+#heavy {
+  color: #f03b20;
+}
+
+#heavier {
+  color: #bd0026;
+}
