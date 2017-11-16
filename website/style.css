@@ -12,11 +12,13 @@ h1, h2 {
   font-weight: normal;
   margin-left: 10%;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 h2 {
   color: #fd8d3c;
+  margin-left: 0;
+
 }
 
 h1 a {
@@ -50,6 +52,7 @@ h1 a:hover {
 
 .navbar li a:hover, .navbar li a:focus {
   color: #bd0026;
+  text-decoration: underline;
 }
 
 .description {
