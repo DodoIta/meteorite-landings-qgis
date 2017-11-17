@@ -7,108 +7,105 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Progetto Cortellucci">
       <customproperties/>
-      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteorite_Landings20171111184926284" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;" name="Meteorite_Landings">
+      <layer-tree-layer expanded="0" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteorite_Landings20171111184926284" source="file:///home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes&amp;=&amp;=&amp;=&amp;=&amp;=&amp;=&amp;=&amp;=&amp;=&amp;=" name="Meteorite_Landings">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Conteggio">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Count20171110113502283" source="/home/dodo/.qgis2/processing/outputs/meteorites_count.shp" name="Count">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp" name="WorldMap">
+        <layer-tree-layer expanded="0" providerKey="memory" checked="Qt::Unchecked" id="memory_20171117191046855" source="Polygon?uuid=0e26d816-f48e-45c2-a72d-a025963ab377&amp;crs=EPSG:4326&amp;field=name:string&amp;field=Count:integer" name="Count">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Densità">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteoriti_Densità20171021131638880" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" name="Meteoriti_Densità">
+        <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="Meteoriti_Densità20171021131638880" source="file:///home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Meteorite_Landings.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=yes" name="Meteoriti_Densità">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="Density20171021132512130" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Density.tif" name="Density">
+        <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="Density20171021132512130" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Density.tif" name="Density">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Antartide">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="meteorites_antarctica_copy20171110123742265" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">
+        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="meteorites_antarctica_copy20171110123742265" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_Antarctica20171111130250294" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_Antarctica.tif" name="Heatmap_Antarctica">
+        <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_Antarctica20171111130250294" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_Antarctica.tif" name="Heatmap_Antarctica">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="antarctica20171110115528451" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/antarctica.shp" name="antarctica">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="antarctica20171110115528451" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/antarctica.shp" name="antarctica">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Oman">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="meteorites_oman20171110184130885" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_oman.shp" name="meteorites_oman">
+        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="meteorites_oman20171110184130885" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/meteorites_oman.shp" name="meteorites_oman">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_Oman20171110184213403" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_Oman.tif" name="Heatmap_Oman">
+        <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_Oman20171110184213403" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_Oman.tif" name="Heatmap_Oman">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="oman20171110181805411" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/oman.shp" name="oman">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="oman20171110181805411" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/oman.shp" name="oman">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="USA">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="meteorites_usa20171111131054270" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_usa.shp" name="meteorites_usa">
+        <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="meteorites_usa20171111131054270" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/meteorites_usa.shp" name="meteorites_usa">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_USA20171111131918800" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">
+        <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_USA20171111131918800" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="usa20171111130544912" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/usa.shp" name="usa">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="usa20171111130544912" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/usa.shp" name="usa">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Decadi">
+      <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Decadi">
         <customproperties/>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="1950-1960">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1950_196020171115123054701" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/decades/1950_1960.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1950_1960">
+          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1950_196020171115123054701" source="file:///home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/decades/1950_1960.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1950_1960">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="1960-1970">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1960_197020171115123323137" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/decades/1960_1970.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1960_1970">
+          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1960_197020171115123323137" source="file:///home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/decades/1960_1970.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1960_1970">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="1970-1980">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1970_198020171115123442836" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/decades/1970_1980.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1970_1980">
+          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1970_198020171115123442836" source="file:///home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/decades/1970_1980.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1970_1980">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="1980-1990">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1980_199020171115123504157" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/decades/1980_1990.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1980_1990">
+          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1980_199020171115123504157" source="file:///home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/decades/1980_1990.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1980_1990">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="1990-2000">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1990_200020171115123521187" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/decades/1990_2000.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1990_2000">
+          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="1990_200020171115123521187" source="file:///home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/decades/1990_2000.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="1990_2000">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="2000-2010">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="2000_201020171115123536218" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/decades/2000_2010.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="2000_2010">
+          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="2000_201020171115123536218" source="file:///home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/decades/2000_2010.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="2000_2010">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
         <layer-tree-group expanded="0" checked="Qt::Unchecked" name="2010-2013">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="2010_201320171115123554265" source="file:///home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/decades/2010_2013.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="2010_2013">
+          <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="2010_201320171115123554265" source="file:///home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/decades/2010_2013.csv?type=csv&amp;xField=reclong&amp;yField=reclat&amp;spatialIndex=yes&amp;subsetIndex=no&amp;watchFile=yes" name="2010_2013">
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="WorldMap_copy20171115122728040" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp" name="WorldMap">
+        <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="WorldMap_copy20171115122728040" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp" name="WorldMap">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -144,8 +141,6 @@
     <custom-order enabled="0">
       <item>Meteoriti_Densità20171021131638880</item>
       <item>Density20171021132512130</item>
-      <item>geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540</item>
-      <item>Count20171110113502283</item>
       <item>antarctica20171110115528451</item>
       <item>meteorites_antarctica_copy20171110123742265</item>
       <item>oman20171110181805411</item>
@@ -164,6 +159,7 @@
       <item>1990_200020171115123521187</item>
       <item>2000_201020171115123536218</item>
       <item>2010_201320171115123554265</item>
+      <item>memory_20171117191046855</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -176,12 +172,7 @@
       <legendgroup open="false" checked="Qt::Unchecked" name="Conteggio">
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Count" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Count20171110113502283" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="WorldMap" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="memory_20171117191046855" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -248,7 +239,7 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Decadi">
+      <legendgroup open="false" checked="Qt::PartiallyChecked" name="Decadi">
         <legendgroup open="false" checked="Qt::Unchecked" name="1950-1960">
           <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1950_1960" showFeatureCount="0">
             <filegroup open="true" hidden="false">
@@ -343,7 +334,7 @@
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="meteorites_usa20171111131054270" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_usa.shp" name="meteorites_usa">
+          <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="meteorites_usa20171111131054270" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/meteorites_usa.shp" name="meteorites_usa">
             <customproperties>
               <property key="expandedLegendNodes" value="3"/>
               <property key="legend/title-label" value="Weight (grams)"/>
@@ -479,7 +470,7 @@
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="">
           <customproperties/>
-          <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="meteorites_antarctica_copy20171110123742265" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">
+          <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="meteorites_antarctica_copy20171110123742265" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">
             <customproperties>
               <property key="legend/title-label" value="Weight (grams)"/>
             </customproperties>
@@ -494,11 +485,11 @@
       <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="true" followPresetName="" id="1" previewMode="Cache" drawCanvasItems="true">
         <Extent ymin="-179.068263781386662" xmin="-188.94106147499999793" ymax="-28.92697620230029543" xmax="188.99856247499999995"/>
         <LayerSet>
-          <Layer provider="ogr" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">meteorites_antarctica_copy20171110123742265</Layer>
-          <Layer provider="ogr" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/antarctica.shp" name="antarctica">antarctica20171110115528451</Layer>
+          <Layer provider="ogr" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">meteorites_antarctica_copy20171110123742265</Layer>
+          <Layer provider="ogr" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/antarctica.shp" name="antarctica">antarctica20171110115528451</Layer>
         </LayerSet>
         <LayerStyles>
-          <LayerStyle provider="ogr" layerid="antarctica20171110115528451" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/antarctica.shp" name="antarctica">
+          <LayerStyle provider="ogr" layerid="antarctica20171110115528451" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/antarctica.shp" name="antarctica">
             <qgis version="2.18.14" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
               <edittypes>
                 <edittype widgetv2type="TextEdit" name="name">
@@ -800,7 +791,7 @@ def my_form_open(dialog, layer, feature):
               <layerGeometryType>2</layerGeometryType>
             </qgis>
           </LayerStyle>
-          <LayerStyle provider="ogr" layerid="meteorites_antarctica_copy20171110123742265" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">
+          <LayerStyle provider="ogr" layerid="meteorites_antarctica_copy20171110123742265" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/meteorites_antarctica.shp" name="meteorites_antarctica_mass">
             <qgis version="2.18.14" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
               <edittypes>
                 <edittype widgetv2type="TextEdit" name="name">
@@ -1366,7 +1357,7 @@ def my_form_open(dialog, layer, feature):
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="meteorites_oman20171110184130885" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/meteorites_oman.shp" name="meteorites_oman">
+          <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="meteorites_oman20171110184130885" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/meteorites_oman.shp" name="meteorites_oman">
             <customproperties>
               <property key="expandedLegendNodes"/>
               <property key="legend/title-label" value="Weight (grams)"/>
@@ -1493,7 +1484,7 @@ def my_form_open(dialog, layer, feature):
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Count20171110113502283" source="/home/dodo/.qgis2/processing/outputs/meteorites_count.shp" name="Count">
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="" name="(?)">
             <customproperties>
               <property key="expandedLegendNodes"/>
             </customproperties>
@@ -1573,7 +1564,7 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
-      <ComposerAttributeTableV2 vectorLayerName="Count" source="0" showGrid="1" maxFeatures="12" resizeMode="0" filterFeatures="true" featureFilter=" &quot;count&quot; > 100" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="Count20171110113502283" vectorLayerSource="/home/dodo/.qgis2/processing/outputs/meteorites_count.shp" composerMap="0" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0" vectorLayerProvider="ogr">
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="12" resizeMode="0" filterFeatures="true" featureFilter=" &quot;count&quot; > 100" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" composerMap="0" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
         <displayColumns>
@@ -1596,7 +1587,7 @@ def my_form_open(dialog, layer, feature):
           <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
         </cellStyles>
         <ComposerFrame sectionWidth="58.9906" sectionHeight="70.1424" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="73.4546" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="227.571" y="73.4546" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="58.9906" outlineWidth="0.3" excludeFromExports="0" uuid="{5cd27236-5362-4498-a672-47abe4386f2d}" height="70.1424" itemRotation="0" frame="false" pagex="227.571">
+          <ComposerItem pagey="73.4546" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="227.571" y="73.4546" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="296.72" outlineWidth="0.3" excludeFromExports="0" uuid="{5cd27236-5362-4498-a672-47abe4386f2d}" height="70.1424" itemRotation="0" frame="false" pagex="227.571">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
@@ -1659,7 +1650,7 @@ def my_form_open(dialog, layer, feature):
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="">
           <customproperties/>
-          <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="Heatmap_Antarctica20171111130250294" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_Antarctica.tif" name="Heatmap_Antarctica">
+          <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="Heatmap_Antarctica20171111130250294" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_Antarctica.tif" name="Heatmap_Antarctica">
             <customproperties>
               <property key="legend/title-label" value="Number (per circle)"/>
             </customproperties>
@@ -1674,11 +1665,11 @@ def my_form_open(dialog, layer, feature):
       <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="true" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
         <Extent ymin="-179.068263781386662" xmin="-188.94106147499999793" ymax="-48.0262887136321126" xmax="188.99856247499999995"/>
         <LayerSet>
-          <Layer provider="gdal" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_Antarctica.tif" name="Heatmap_Antarctica">Heatmap_Antarctica20171111130250294</Layer>
-          <Layer provider="ogr" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/antarctica.shp" name="antarctica">antarctica20171110115528451</Layer>
+          <Layer provider="gdal" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_Antarctica.tif" name="Heatmap_Antarctica">Heatmap_Antarctica20171111130250294</Layer>
+          <Layer provider="ogr" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/antarctica.shp" name="antarctica">antarctica20171110115528451</Layer>
         </LayerSet>
         <LayerStyles>
-          <LayerStyle provider="gdal" layerid="Heatmap_Antarctica20171111130250294" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_Antarctica.tif" name="Heatmap_Antarctica">
+          <LayerStyle provider="gdal" layerid="Heatmap_Antarctica20171111130250294" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_Antarctica.tif" name="Heatmap_Antarctica">
             <qgis version="2.18.14" minimumScale="inf" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
               <pipe>
                 <rasterrenderer opacity="1" alphaBand="0" classificationMax="4650" classificationMinMaxOrigin="User" band="1" classificationMin="1" type="singlebandpseudocolor">
@@ -1700,7 +1691,7 @@ def my_form_open(dialog, layer, feature):
               <blendMode>0</blendMode>
             </qgis>
           </LayerStyle>
-          <LayerStyle provider="ogr" layerid="antarctica20171110115528451" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/antarctica.shp" name="antarctica">
+          <LayerStyle provider="ogr" layerid="antarctica20171110115528451" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/antarctica.shp" name="antarctica">
             <qgis version="2.18.14" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
               <edittypes>
                 <edittype widgetv2type="TextEdit" name="name">
@@ -2105,7 +2096,7 @@ def my_form_open(dialog, layer, feature):
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="">
           <customproperties/>
-          <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="Heatmap_Oman20171110184213403" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_Oman.tif" name="Heatmap_Oman">
+          <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="Heatmap_Oman20171110184213403" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_Oman.tif" name="Heatmap_Oman">
             <customproperties>
               <property key="legend/title-label" value="Number (per circle)"/>
             </customproperties>
@@ -2231,7 +2222,7 @@ def my_form_open(dialog, layer, feature):
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
           <customproperties/>
-          <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_USA20171111131918800" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">
+          <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="Heatmap_USA20171111131918800" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">
             <customproperties>
               <property key="expandedLegendNodes" value=""/>
               <property key="legend/title-label" value="Number (per circle)"/>
@@ -2256,11 +2247,11 @@ def my_form_open(dialog, layer, feature):
       <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="true" followPresetName="" id="1" previewMode="Cache" drawCanvasItems="true">
         <Extent ymin="14.66592835817593965" xmin="-174.41177227500000413" ymax="82.31869624219112325" xmax="-64.34399872499997741"/>
         <LayerSet>
-          <Layer provider="gdal" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">Heatmap_USA20171111131918800</Layer>
-          <Layer provider="ogr" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/usa.shp" name="usa">usa20171111130544912</Layer>
+          <Layer provider="gdal" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">Heatmap_USA20171111131918800</Layer>
+          <Layer provider="ogr" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/usa.shp" name="usa">usa20171111130544912</Layer>
         </LayerSet>
         <LayerStyles>
-          <LayerStyle provider="gdal" layerid="Heatmap_USA20171111131918800" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">
+          <LayerStyle provider="gdal" layerid="Heatmap_USA20171111131918800" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/Heatmap_USA.tif" name="Heatmap_USA">
             <qgis version="2.18.14" minimumScale="inf" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
               <pipe>
                 <rasterrenderer opacity="1" alphaBand="0" classificationMax="119" classificationMinMaxOrigin="User" band="1" classificationMin="1" type="singlebandpseudocolor">
@@ -2282,7 +2273,7 @@ def my_form_open(dialog, layer, feature):
               <blendMode>0</blendMode>
             </qgis>
           </LayerStyle>
-          <LayerStyle provider="ogr" layerid="usa20171111130544912" source="/home/dodo/GitHub/meteorite-landings-qgis/dati_nasa/world_shp/usa.shp" name="usa">
+          <LayerStyle provider="ogr" layerid="usa20171111130544912" source="/home/dodo/Documenti/Geomatica/meteorite_landings/dati_nasa/world_shp/usa.shp" name="usa">
             <qgis version="2.18.14" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
               <edittypes>
                 <edittype widgetv2type="TextEdit" name="name">
@@ -2686,6 +2677,12 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="GeoLocation">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="Weight (Kg)">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="years">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
@@ -2742,7 +2739,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -2754,17 +2751,19 @@ def my_form_open(dialog, layer, feature):
         <alias field="reclat" index="7" name=""/>
         <alias field="reclong" index="8" name=""/>
         <alias field="GeoLocation" index="9" name=""/>
+        <alias field="Weight (Kg)" index="10" name=""/>
+        <alias field="years" index="11" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="15263975">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2784,6 +2783,8 @@ def my_form_open(dialog, layer, feature):
         <default field="reclat" expression=""/>
         <default field="reclong" expression=""/>
         <default field="GeoLocation" expression=""/>
+        <default field="Weight (Kg)" expression=""/>
+        <default field="years" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
@@ -2900,7 +2901,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -2916,13 +2917,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="15263975">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3058,7 +3059,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -3074,13 +3075,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="15263975">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3216,7 +3217,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -3232,13 +3233,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="15132390">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3374,7 +3375,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -3390,13 +3391,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="85156432">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3532,7 +3533,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -3548,13 +3549,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="80752384">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3690,7 +3691,7 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
         <alias field="id" index="1" name=""/>
@@ -3706,13 +3707,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="94219872">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -3734,407 +3735,6 @@ def my_form_open(dialog, layer, feature):
         <default field="GeoLocation" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
-    </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <extent>
-        <xmin>-180</xmin>
-        <ymin>-85.60903799999999819</ymin>
-        <xmax>180</xmax>
-        <ymax>83.64512999999999465</ymax>
-      </extent>
-      <id>Count20171110113502283</id>
-      <datasource>../../.qgis2/processing/outputs/meteorites_count.shp</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Count</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="System">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="name">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="count">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 attr="count" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
-        <ranges>
-          <range render="true" symbol="0" lower="0.000000000000000" upper="52.000000000000000" label=" 0 - 52 "/>
-          <range render="true" symbol="1" lower="52.000000000000000" upper="227.000000000000000" label=" 52 - 227 "/>
-          <range render="true" symbol="2" lower="227.000000000000000" upper="638.000000000000000" label=" 227 - 638 "/>
-          <range render="true" symbol="3" lower="638.000000000000000" upper="3093.000000000000000" label=" 638 - 3093 "/>
-          <range render="true" symbol="4" lower="3093.000000000000000" upper="20637.000000000000000" label=" 3093 - 20637 "/>
-        </ranges>
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="255,255,178,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="254,204,92,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="253,141,60,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="240,59,32,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="189,0,0,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <source-symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="140,106,56,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-        </source-symbol>
-        <colorramp type="gradient" name="[source]">
-          <prop k="color1" v="255,255,178,255"/>
-          <prop k="color2" v="189,0,38,255"/>
-          <prop k="discrete" v="0"/>
-          <prop k="stops" v="0.25;254,204,92,255:0.5;253,141,60,255:0.75;240,59,32,255"/>
-        </colorramp>
-        <invertedcolorramp value="0"/>
-        <mode name="jenks"/>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="0"/>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="false"/>
-        <property key="labeling/bufferJoinStyle" value="128"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value=""/>
-        <property key="labeling/fitInPolygonOnly" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="Cantarell"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="11"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/labelPerPart" value="false"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="false"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="4294967295"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Regular"/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="1"/>
-        <property key="labeling/obstacleType" value="0"/>
-        <property key="labeling/offsetType" value="0"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="1"/>
-        <property key="labeling/placementFlags" value="10"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/useSubstitutions" value="false"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-        <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames"/>
-        <property key="variableValues"/>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>name</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Label"/>
-        <family fieldname="" name="Cantarell"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
-          <fontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
-        </DiagramCategory>
-        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
-          <layer pass="0" class="SimpleMarker" locked="0">
-            <prop k="angle" v="0"/>
-            <prop k="color" v="255,0,0,255"/>
-            <prop k="horizontal_anchor_point" v="1"/>
-            <prop k="joinstyle" v="bevel"/>
-            <prop k="name" v="circle"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="solid"/>
-            <prop k="outline_width" v="0"/>
-            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="scale_method" v="diameter"/>
-            <prop k="size" v="2"/>
-            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="size_unit" v="MM"/>
-            <prop k="vertical_anchor_point" v="1"/>
-          </layer>
-        </symbol>
-      </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
-      <aliases>
-        <alias field="name" index="0" name=""/>
-        <alias field="count" index="1" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;count&quot;" sortOrder="1">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="name"/>
-          <column width="-1" hidden="0" type="field" name="count"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
-      </attributetableconfig>
-      <editform>.</editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS forms can have a Python function that is called when the form is
-opened.
-
-Use this function to add extra logic to your forms.
-
-Enter the name of the function in the "Python Init function"
-field.
-An example follows:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <defaults>
-        <default field="name" expression=""/>
-        <default field="count" expression=""/>
-      </defaults>
-      <previewExpression>COALESCE( "name", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
@@ -5119,6 +4719,12 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-180</xmin>
+        <ymin>-85.60903799999999819</ymin>
+        <xmax>180</xmax>
+        <ymax>83.64512999999999465</ymax>
+      </extent>
       <id>WorldMap_copy20171115122728040</id>
       <datasource>./dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp</datasource>
       <keywordList>
@@ -5756,12 +5362,12 @@ def my_form_open(dialog, layer, feature):
         <xmax>180</xmax>
         <ymax>83.64512999999999465</ymax>
       </extent>
-      <id>geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540</id>
-      <datasource>./dati_nasa/world_shp/geo_export_97c426b3-9cf9-4017-9f63-5216867f283c.shp</datasource>
+      <id>memory_20171117191046855</id>
+      <datasource>memory?geometry=Polygon&amp;crs=EPSG:4326&amp;field=name:string(255,0)&amp;field=Count:integer(-1,0)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>WorldMap</layername>
+      <layername>Count</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -5774,7 +5380,7 @@ def my_form_open(dialog, layer, feature):
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="System">ogr</provider>
+      <provider encoding="System">memory</provider>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
@@ -5785,13 +5391,83 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="Count">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 attr="Count" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range render="true" symbol="0" lower="0.000000000000000" upper="52.000000000000000" label=" 0 - 52 "/>
+          <range render="true" symbol="1" lower="52.000000000000000" upper="227.000000000000000" label=" 52 - 227 "/>
+          <range render="true" symbol="2" lower="227.000000000000000" upper="638.000000000000000" label=" 227 - 638 "/>
+          <range render="true" symbol="3" lower="638.000000000000000" upper="3093.000000000000000" label=" 638 - 3093 "/>
+          <range render="true" symbol="4" lower="3093.000000000000000" upper="20637.000000000000000" label=" 3093 - 20637 "/>
+        </ranges>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="166,206,227,255"/>
+              <prop k="color" v="255,255,178,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="254,204,92,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,141,60,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="240,59,32,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="189,0,38,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -5804,8 +5480,34 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </symbols>
+        <source-symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="74,11,146,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="255,255,178,255"/>
+          <prop k="color2" v="189,0,38,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.25;254,204,92,255:0.5;253,141,60,255:0.75;240,59,32,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="jenks"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="0"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -5948,14 +5650,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames">
-          <value>qgis_25d_angle</value>
-          <value>qgis_25d_height</value>
-        </property>
-        <property key="variableValues">
-          <value>70</value>
-          <value>10</value>
-        </property>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -5963,7 +5659,7 @@ def my_form_open(dialog, layer, feature):
       <displayfield>name</displayfield>
       <label>0</label>
       <labelattributes>
-        <label fieldname="" text="Etichetta"/>
+        <label fieldname="" text="Label"/>
         <family fieldname="" name="Cantarell"/>
         <size fieldname="" units="pt" value="12"/>
         <bold fieldname="" on="0"/>
@@ -5985,7 +5681,6 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -6011,23 +5706,25 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
+        <alias field="Count" index="1" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;name&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;Count&quot;" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="name"/>
+          <column width="-1" hidden="0" type="field" name="Count"/>
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -6054,6 +5751,7 @@ def my_form_open(dialog, layer, feature):
       </conditionalstyles>
       <defaults>
         <default field="name" expression=""/>
+        <default field="Count" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "name", '&lt;NULL>' )</previewExpression>
     </maplayer>
@@ -7923,9 +7621,6 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="Count_count">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
@@ -8149,7 +7844,6 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <aliases>
         <alias field="name" index="0" name=""/>
-        <alias field="Count_count" index="1" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -8191,7 +7885,6 @@ def my_form_open(dialog, layer, feature):
       </conditionalstyles>
       <defaults>
         <default field="name" expression=""/>
-        <default field="Count_count" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "name", '&lt;NULL>' )</previewExpression>
     </maplayer>
@@ -8233,18 +7926,32 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>Count20171110113502283</value>
+        <value>1950_196020171115123054701</value>
+        <value>1960_197020171115123323137</value>
+        <value>1970_198020171115123442836</value>
+        <value>1980_199020171115123504157</value>
+        <value>1990_200020171115123521187</value>
+        <value>2000_201020171115123536218</value>
+        <value>2010_201320171115123554265</value>
         <value>Meteorite_Landings20171111184926284</value>
         <value>Meteoriti_Densità20171021131638880</value>
+        <value>WorldMap_copy20171115122728040</value>
         <value>antarctica20171110115528451</value>
-        <value>geo_export_97c426b3_9cf9_4017_9f63_5216867f283c20171021170039540</value>
         <value>meteorites_antarctica_copy20171110123742265</value>
         <value>meteorites_oman20171110184130885</value>
         <value>meteorites_usa20171111131054270</value>
         <value>oman20171110181805411</value>
         <value>usa20171111130544912</value>
+        <value>memory_20171117191046855</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -8269,8 +7976,22 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -8285,6 +8006,13 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
