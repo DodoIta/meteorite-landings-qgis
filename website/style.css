@@ -55,6 +55,10 @@ h1 a:hover {
   text-decoration: underline;
 }
 
+#active {
+  color: #bd0026;
+}
+
 .description {
   background-color: #262626;
   margin: 0;
